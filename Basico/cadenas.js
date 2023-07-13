@@ -77,12 +77,38 @@ console.log(string9.replace('JavaScript', 'Python'))
 //! startsWith(): toma una subcadena como argumento y verifica si la cadena comienza con esa subcadena
 //! devuelve un valor booleano 
 
+//! search
+let string10 = "Evolutech te capacita, en JavaScript, y react"
+console.log(string10.search("te"));
+console.log(string10.search(/JavaScript/gi));
 
+//! match
+let string11 = "Evolutech te capacita, en JavaScript, y react"
+console.log(string11.match("Evolutech"))
+console.log(string11.match(/Evolutech/gi))
 
+let string12 = "Evolutech te capacita, en JavaScript, y react"
+let txt = 'En 2023 me inscribi a un curso de JavaScript con React, espero que para 2024 pueda ser senior usando estas tecnologias'
+console.log(txt.match(/\d/g))
 
+//! repeat()
+let txt1 = 'Hello';
+console.log(txt1.repeat(10))
 
+//! comprobacion de tipos de datos y conversion
 
+//typeof: devielve el tipo de valor especificado como un String (tipo primitivo)
+console.log(typeof 'hola')
 
+//! casting
+    //? parseInt, parseFloat, number, +string ,string()
+
+    let numero = '10'
+    console.log(typeof numero, numero)
+    let numeroEntero = parseInt(numero)
+    console.log(typeof numeroEntero, numeroEntero)
+
+    
 
 
 
